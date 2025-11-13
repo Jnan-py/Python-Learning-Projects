@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}File Content - {{ filename }}{% endblock %}
+
+{% block content %}
+<h2>Contents of {{ filename }}</h2>
+
+<div class="file-content-box" id="fileContent"><pre>{{ content }}</pre></div>
+<button class="btn" onclick="copyToClipboard()">Copy Content</button>
+
+<script>
+function copyToClipboard() {
+    var content = document.getElementById("fileContent").innerText;
+    navigator.clipboard.writeText(content).then(function() {
+        alert("Content copied to clipboard!");
+    });
+}
+</script>
+<a href="{{ url_for('list_files') }}">Back to Files</a>
+{% endblock %}

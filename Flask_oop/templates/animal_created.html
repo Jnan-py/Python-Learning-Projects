@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Animal Created{% endblock %}
+
+{% block content %}
+<h2>Animal Created</h2>
+<p><strong>Name (encapsulated):</strong> {{ animal.name }}</p>
+<p><strong>Speak (polymorphism):</strong> {{ animal.speak() }}</p>
+{% if a_type == 'dog' %}
+<p><strong>Fetch method:</strong> {{ animal.fetch() }}</p>
+{% elif a_type == 'cat' %}
+<p><strong>Scratch method:</strong> {{ animal.scratch() }}</p>
+{% endif %}
+<a href="{{ url_for('home') }}">Back Home</a>
+{% endblock %}
