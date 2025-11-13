@@ -93,12 +93,13 @@ App runs at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 ## How to Use This Repository
 
-- Each project is **independent**—use them as learning modules or prototypes for classroom/lab use.
+- Each project is **independent** - use them as learning modules or prototypes for classroom/lab use.
 - Clone this repo and explore each folder for code, templates, and instructions.
 - Customize or extend with your own Python concepts or datasets.
 
 ## Contribution
 
 Pull requests and issues are welcome for improvements, bugfixes, and extensions, especially for new Python pedagogy modules or UI/UX enhancements.
+
 
 
