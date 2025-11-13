@@ -38,7 +38,7 @@ A Streamlit app for exploring Python data types, control flow, lambda functions,
 ```
 cd Python Interactive Dashboard
 pip install -r requirements.txt
-streamlit run streamlit_python_explorer.py
+streamlit run main.py
 ```
 
 ---
@@ -61,7 +61,7 @@ A Streamlit app to explore Python functions, lambdas, argument handling, built-i
 ```
 cd Python Module Function Explorer
 pip install -r requirements.txt
-streamlit run streamlit_module_explorer.py
+streamlit run main.py
 ```
 
 ---
@@ -100,4 +100,5 @@ App runs at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 ## Contribution
 
 Pull requests and issues are welcome for improvements, bugfixes, and extensions, especially for new Python pedagogy modules or UI/UX enhancements.
+
 
